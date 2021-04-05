@@ -11,7 +11,9 @@ _harcascade_: Cascade means here it goes down cascading over and over again. It 
 
 _Haar Features aka Rudimentary blocks: approximates the relationship between the pixels within the box
   Edge Features
+  
   Line Features
+  
   Four Rectangle Features_
   
   
