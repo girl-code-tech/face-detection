@@ -1,5 +1,5 @@
 # face-detection with deep learning
-Face detection is a computer technology being used in a variety of applications that identifies human faces in digital images. Face detection also refers to the psychological process by which humans locate and attend to faces in a visual scene. We use feature based approach, it is first trained as a classifier and then used to differentiate between facial and non-facial regions.
+Face detection is a computer technology being used in a variety of applications that identifies human faces in digital images. Face detection also refers to the psychological process by which humans locate and attend to faces in a visual scene. We use feature based approach, in which a model is first trained as a classifier and then used to differentiate between facial and non-facial regions.
 
 **Face Detection**: The very first task we perform is detecting faces in the image or video stream
 
