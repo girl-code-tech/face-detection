@@ -1,4 +1,6 @@
 # face-detection with deep learning
+Face detection is a computer technology being used in a variety of applications that identifies human faces in digital images. Face detection also refers to the psychological process by which humans locate and attend to faces in a visual scene. We use feature based approach, it is first trained as a classifier and then used to differentiate between facial and non-facial regions.
+
 **Face Detection**: The very first task we perform is detecting faces in the image or video stream
 
 **Feature Extraction**: Using face embeddings to extract the features out of the face. A neural network gets an image of the person’s face as input and provides a vector to represents the most important features of a face as an output. In ML, that vector is called embedding and thus we call this vector as face embedding. 
@@ -19,9 +21,20 @@ _Haar Features aka Rudimentary blocks: approximates the relationship between the
 
 
 Using these features(layering over and over again and cascading down the images are found)
+**How the Face Detection Works:-**
+Firstly the image is imported by providing the location of the image. Then the picture is transformed from RGB to Grayscale because it is easy to detect faces in the grayscale.
+After that, the image manipulation used, in which the resizing, cropping, blurring and sharpening of the images done if needed. The next step is image segmentation, which is used for contour detection or segments the multiple objects in a single image so that the classifier can quickly detect the objects and faces in the picture.
+
   
   
 For each feature, it finds the best threshold which will classify the faces to positive and negative. Obviously, there will be errors or misclassifications. We select the features with minimum error rate, which means they are the features that most accurately classify the face and non-face images. (The process is not as simple as this. Each image is given an equal weight in the beginning. After each classification, weights of misclassified images are increased. Then the same process is done. New error rates are calculated. Also new weights. The process is continued until the required accuracy or error rate is achieved or the required number of features are found). The final classifier is a weighted sum of these weak classifiers. It is called weak because it alone can't classify the image, but together with others forms a strong classifier.
+
+This algorithm used for finding the location of the human faces in a frame or image. All human faces shares some universal properties of the human face like the eyes region is darker than its neighbour pixels and nose region is brighter than eye region.
+
+The haar-like algorithm is also used for feature selection or feature extraction for an object in an image, with the help of edge detection, line detection, centre detection for detecting eyes, nose, mouth, etc. in the picture. It is used to select the essential features in an image and extract these features for face detection.
+
+The next step is to give the coordinates of x, y, w, h which makes a rectangle box in the picture to show the location of the face. After this, it can make a rectangle box in the area of interest where it detects the face. 
+
 
 How harcascade works: Harcascade Visualization: https://www.youtube.com/watch?v=hPCTwxF0qf4
 
