@@ -23,6 +23,8 @@ Using these features(layering over and over again and cascading down the images 
   
 For each feature, it finds the best threshold which will classify the faces to positive and negative. Obviously, there will be errors or misclassifications. We select the features with minimum error rate, which means they are the features that most accurately classify the face and non-face images. (The process is not as simple as this. Each image is given an equal weight in the beginning. After each classification, weights of misclassified images are increased. Then the same process is done. New error rates are calculated. Also new weights. The process is continued until the required accuracy or error rate is achieved or the required number of features are found). The final classifier is a weighted sum of these weak classifiers. It is called weak because it alone can't classify the image, but together with others forms a strong classifier.
 
+How harcascade works: Harcascade Visualization: https://www.youtube.com/watch?v=hPCTwxF0qf4
+
 
 
 
