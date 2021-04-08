@@ -1,5 +1,16 @@
 # face-detection with deep learning
 Face detection is a computer technology being used in a variety of applications that identifies human faces in digital images. Face detection also refers to the psychological process by which humans locate and attend to faces in a visual scene. We use feature based approach, in which a model is first trained as a classifier and then used to differentiate between facial and non-facial regions.
+_**Goal:**_ determine if there are any faces in the image or video.
+Problem Statement: Human faces are difficult to model as there are many variables that can change for example facial expression, orientation, lighting conditions and partial occlusions such as sunglasses, scarf, mask etc. The result of the detection gives the face location parameters and it could be required in various forms, for instance, a rectangle covering the central part of the face, eye centers or landmarks including eyes, nose and mouth corners, eyebrows, nostrils, etc.
+**Face Detection Methods**: There are two main approaches for Face Detection:
+    1.Feature Base Approach: Objects are usually recognized by their unique features. It locates faces by extracting structural features like eyes, nose, mouth etc. and then uses them to detect a face. Typically, some sort of statistical classifier qualified then helpful to separate between facial and non-facial regions. In addition, human faces have particular textures which can be used to differentiate between a face and other objects. Moreover, the edge of features can help to detect the objects from the face.    
+    2.Image Base Approach: In general, Image-based methods rely on techniques from statistical analysis and machine learning to find the relevant characteristics of face and non-face images. The learned characteristics are in the form of distribution models or discriminant functions that is consequently used for face detection. In this method, we use different algorithms such as Neural-networks, HMM, SVM, AdaBoost learning. 
+
+The Viola Jones algorithm has four main steps:
+1.Selecting Haar-like features
+2.Creating an integral image
+3.Running AdaBoost training
+4.Creating classifier cascades
 
 **Face Detection**: The very first task we perform is detecting faces in the image or video stream
 
