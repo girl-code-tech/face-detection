@@ -1,4 +1,5 @@
 #face-detection with deep learning
+
 Face detection is a computer technology being used in a variety of applications that identifies human faces in digital images. Face detection also refers to the psychological process by which humans locate and attend to faces in a visual scene. We use feature based approach, in which a model is first trained as a classifier and then used to differentiate between facial and non-facial regions.
 **Goals:** determine if there are any faces in the image or video.
 Problem Statement: Human faces are difficult to model as there are many variables that can change for example facial expression, orientation, lighting conditions and partial occlusions such as sunglasses, scarf, mask etc. The result of the detection gives the face location parameters and it could be required in various forms, for instance, a rectangle covering the central part of the face, eye centers or landmarks including eyes, nose and mouth corners, eyebrows, nostrils, etc.
@@ -101,3 +102,4 @@ https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and
 
 Code Understanding: mygreatlearning.com/blog/viola-jones-algorithm
 
+https://towardsdatascience.com/the-intuition-behind-facial-detection-the-viola-jones-algorithm-29d9106b6999
