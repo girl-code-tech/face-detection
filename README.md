@@ -103,3 +103,16 @@ https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and
 Code Understanding: mygreatlearning.com/blog/viola-jones-algorithm
 
 https://towardsdatascience.com/the-intuition-behind-facial-detection-the-viola-jones-algorithm-29d9106b6999
+
+dataset link=https://archive.ics.uci.edu/ml/datasets.php
+
+Recources for ML model:
+https://algorithmia.com/blog/train-a-face-recognition-model-to-recognize-celebrities#:~:text=The%20Face%20Recognition%20algorithm%20trains,you%20wish%20to%20train%20on.&text=One%20of%20the%20major%20complaints,that%20exists%20in%20real%20life.
+
+https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/
+
+https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/
+
+https://machinelearningmastery.com/how-to-perform-face-detection-with-classical-and-deep-learning-methods-in-python-with-keras/
+
+
